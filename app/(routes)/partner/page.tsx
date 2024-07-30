@@ -9,7 +9,7 @@ const PartnerPage = () => {
                     <div className="flex flex-col justify-start gap-3">
                         <div className="relative flex-1 aspect-[100/127]">
                             <Image
-                                src="https://verra-store.vercel.app/4.png"
+                                src="./4.png"
                                 alt="BUSINESS"
                                 fill
                                 className="absolute h-full w-full inset-0 text-transparent"
@@ -29,7 +29,7 @@ const PartnerPage = () => {
                     <div className="flex flex-col justify-start gap-3">
                         <div className="relative flex-1 aspect-[100/127]">
                             <Image
-                                src="https://verra-store.vercel.app/5.png"
+                                src="./5.png"
                                 alt="CARTERING"
                                 fill
                                 className="absolute h-full w-full inset-0 text-transparent"
@@ -48,7 +48,7 @@ const PartnerPage = () => {
                     <div className="flex flex-col justify-start gap-3">
                         <div className="relative flex-1 aspect-[100/127]">
                             <Image
-                                src="https://verra-store.vercel.app/6.png"
+                                src="./6.png"
                                 alt="CAREER"
                                 fill
                                 className="absolute h-full w-full inset-0 text-transparent"

@@ -120,7 +120,7 @@ const JourneyPage = () => {
                                             <div className="grid grid-cols-2 gap-8">
                                                 <div className="relative flex-1 aspect-[4/5]">
                                                     <Image
-                                                        src="https://verra-store.vercel.app/2.png"
+                                                        src="./2.png"
                                                         width={500}
                                                         height={300}
                                                         alt="Life Image"
@@ -208,7 +208,7 @@ const JourneyPage = () => {
                                         <div className="grid grid-cols-2 gap-8">
                                             <div className="relative flex-1 aspect-[3/4]">
                                                 <Image
-                                                    src="https://verra-store.vercel.app/1.png"
+                                                    src="./1.png"
                                                     width={500}
                                                     height={300}
                                                     alt="Music & Art Image"
