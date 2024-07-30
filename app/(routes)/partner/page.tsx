@@ -11,7 +11,7 @@ const PartnerPage = () => {
                         <div className="relative flex-1 aspect-[100/127]">
                             <Link href="/">
                                 <Image
-                                    src="/images/4.png"
+                                    src="https://utfs.io/f/12fa0f8e-94e9-4448-bebb-b57c3d053d40-1g.PNG"
                                     alt="BUSINESS"
                                     fill
                                     className="absolute h-full w-full inset-0 text-transparent"
@@ -33,7 +33,7 @@ const PartnerPage = () => {
                         <div className="relative flex-1 aspect-[100/127]">
                             <Link href="/">
                                 <Image
-                                    src="/images/5.png"
+                                    src="https://utfs.io/f/4fdd1c5d-c0a5-4d97-b66a-e7b67e4a54dc-1h.PNG"
                                     alt="CARTERING"
                                     fill
                                     className="absolute h-full w-full inset-0 text-transparent"
@@ -54,7 +54,7 @@ const PartnerPage = () => {
                         <div className="relative flex-1 aspect-[100/127]">
                             <Link href="/">
                                 <Image
-                                    src="/images/6.png"
+                                    src="https://utfs.io/f/a638c2a3-a252-466a-8cbd-4be9d3e3e7a1-1i.PNG"
                                     alt="CAREER"
                                     fill
                                     className="absolute h-full w-full inset-0 text-transparent"
