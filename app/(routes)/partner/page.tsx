@@ -59,6 +59,12 @@ const PartnerPage = () => {
                                     fill
                                     className="absolute h-full w-full inset-0 text-transparent"
                                 />
+                                <Image
+                                    src="/logo.svg"
+                                    alt="CAREER"
+                                    fill
+                                    className="absolute h-full w-full inset-0 text-transparent"
+                                />
                             </Link>
                         </div>
                         <h3 className="font-medium text-primary __className_7357dc">
