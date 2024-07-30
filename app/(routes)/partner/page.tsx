@@ -1,5 +1,6 @@
 import { Container } from '@/components/layout/container'
 import Image from 'next/image'
+import Link from 'next/link'
 const PartnerPage = () => {
     return (
         <Container>
@@ -8,12 +9,14 @@ const PartnerPage = () => {
                     {/* <!-- Card 1 --> */}
                     <div className="flex flex-col justify-start gap-3">
                         <div className="relative flex-1 aspect-[100/127]">
-                            <Image
-                                src="./4.png"
-                                alt="BUSINESS"
-                                fill
-                                className="absolute h-full w-full inset-0 text-transparent"
-                            />
+                            <Link href="/">
+                                <Image
+                                    src="/4.png"
+                                    alt="BUSINESS"
+                                    fill
+                                    className="absolute h-full w-full inset-0 text-transparent"
+                                />
+                            </Link>
                         </div>
                         <h3 className="font-medium text-primary __className_7357dc">
                             BUSINESS
@@ -28,12 +31,14 @@ const PartnerPage = () => {
                     {/* <!-- Card 2 --> */}
                     <div className="flex flex-col justify-start gap-3">
                         <div className="relative flex-1 aspect-[100/127]">
-                            <Image
-                                src="./5.png"
-                                alt="CARTERING"
-                                fill
-                                className="absolute h-full w-full inset-0 text-transparent"
-                            />
+                            <Link href="/">
+                                <Image
+                                    src="/5.png"
+                                    alt="CARTERING"
+                                    fill
+                                    className="absolute h-full w-full inset-0 text-transparent"
+                                />
+                            </Link>
                         </div>
                         <h3 className="font-medium text-primary __className_7357dc">
                             CARTERING
@@ -47,12 +52,14 @@ const PartnerPage = () => {
                     {/* <!-- Card 3 --> */}
                     <div className="flex flex-col justify-start gap-3">
                         <div className="relative flex-1 aspect-[100/127]">
-                            <Image
-                                src="./6.png"
-                                alt="CAREER"
-                                fill
-                                className="absolute h-full w-full inset-0 text-transparent"
-                            />
+                            <Link href="/">
+                                <Image
+                                    src="/6.png"
+                                    alt="CAREER"
+                                    fill
+                                    className="absolute h-full w-full inset-0 text-transparent"
+                                />
+                            </Link>
                         </div>
                         <h3 className="font-medium text-primary __className_7357dc">
                             CAREER

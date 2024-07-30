@@ -1,6 +1,7 @@
 'use client'
 import { Container } from '@/components/layout/container'
 import { useState } from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 const JourneyPage = () => {
     const [activeTab, setActiveTab] = useState('life')
@@ -119,13 +120,15 @@ const JourneyPage = () => {
                                         <div className="flex flex-col gap-4">
                                             <div className="grid grid-cols-2 gap-8">
                                                 <div className="relative flex-1 aspect-[4/5]">
-                                                    <Image
-                                                        src="./2.png"
-                                                        width={500}
-                                                        height={300}
-                                                        alt="Life Image"
-                                                        className="absolute inset-0 h-full w-full text-transparent"
-                                                    />
+                                                    <Link href="/">
+                                                        <Image
+                                                            src="/2.png"
+                                                            width={500}
+                                                            height={300}
+                                                            alt="Life Image"
+                                                            className="absolute inset-0 h-full w-full text-transparent"
+                                                        />
+                                                    </Link>
                                                 </div>
                                                 <div className="flex flex-col justify-between text-justify">
                                                     <h3 className="font-medium text-primary text-xl ">
@@ -207,13 +210,15 @@ const JourneyPage = () => {
                                     <div id="musicArt" className="tab-content">
                                         <div className="grid grid-cols-2 gap-8">
                                             <div className="relative flex-1 aspect-[3/4]">
-                                                <Image
-                                                    src="./1.png"
-                                                    width={500}
-                                                    height={300}
-                                                    alt="Music & Art Image"
-                                                    className="absolute inset-0 h-full w-full text-transparent"
-                                                />
+                                                <Link href="/">
+                                                    <Image
+                                                        src="/1.png"
+                                                        width={500}
+                                                        height={300}
+                                                        alt="Music & Art Image"
+                                                        className="absolute inset-0 h-full w-full text-transparent"
+                                                    />
+                                                </Link>
                                             </div>
                                             <div className="flex flex-col gap-1 text-justify justify-between">
                                                 <h3 className="font-medium text-primary text-xl __className_7357dc">
