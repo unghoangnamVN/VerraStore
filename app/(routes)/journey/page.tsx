@@ -122,7 +122,7 @@ const JourneyPage = () => {
                                                 <div className="relative flex-1 aspect-[4/5]">
                                                     <Link href="/">
                                                         <Image
-                                                            src="/2.png"
+                                                            src="/images/2.png"
                                                             width={500}
                                                             height={300}
                                                             alt="Life Image"
@@ -212,7 +212,7 @@ const JourneyPage = () => {
                                             <div className="relative flex-1 aspect-[3/4]">
                                                 <Link href="/">
                                                     <Image
-                                                        src="/1.png"
+                                                        src="/images/1.png"
                                                         width={500}
                                                         height={300}
                                                         alt="Music & Art Image"

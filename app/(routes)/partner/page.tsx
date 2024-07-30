@@ -11,7 +11,7 @@ const PartnerPage = () => {
                         <div className="relative flex-1 aspect-[100/127]">
                             <Link href="/">
                                 <Image
-                                    src="/4.png"
+                                    src="/images/4.png"
                                     alt="BUSINESS"
                                     fill
                                     className="absolute h-full w-full inset-0 text-transparent"
@@ -33,7 +33,7 @@ const PartnerPage = () => {
                         <div className="relative flex-1 aspect-[100/127]">
                             <Link href="/">
                                 <Image
-                                    src="/5.png"
+                                    src="/images/5.png"
                                     alt="CARTERING"
                                     fill
                                     className="absolute h-full w-full inset-0 text-transparent"
@@ -54,13 +54,7 @@ const PartnerPage = () => {
                         <div className="relative flex-1 aspect-[100/127]">
                             <Link href="/">
                                 <Image
-                                    src="/6.png"
-                                    alt="CAREER"
-                                    fill
-                                    className="absolute h-full w-full inset-0 text-transparent"
-                                />
-                                <Image
-                                    src="/logo.svg"
+                                    src="/images/6.png"
                                     alt="CAREER"
                                     fill
                                     className="absolute h-full w-full inset-0 text-transparent"
